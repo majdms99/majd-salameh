@@ -22,7 +22,6 @@ const Projects = () => {
         })
 
         const res = await client.getEntries({ content_type: 'works' })
-        console.log('Wor', res.items);
         setData(res.items)
     }
 

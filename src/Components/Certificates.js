@@ -21,7 +21,6 @@ const Certificates = () => {
         })
 
         const res = await client.getEntries({ content_type: 'certificates' })
-        console.log('Car', res.items);
         setData(res.items)
     }
 
